@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('css')
-<link rel="stylesheet" href="http://localhost:8000/css/app.css">
+<link rel="stylesheet" href="/css/app.css">
 @endsection
 
 @section('content')
@@ -17,6 +17,6 @@
 @endsection
 
 @section('scripts')
-<script src="http://localhost:8000/js/app.js"></script>
+<script src="/js/app.js"></script>
 @endsection
 
