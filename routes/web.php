@@ -18,3 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::resource('oauth', 'oauthController');
+
+Route::resource('posts', 'postController');
+
